@@ -1,0 +1,13 @@
+dept_id,dept_name,cost_center,headcount,buys_categories,po_weight,staff_titles
+1,Executive,CC100,1,,0,
+2,Procurement,CC210,14,Packaging|Safety|IT Equipment|Facilities|Tools|Stationery|Logistics,5,Buyer|Procurement Officer|Sourcing Analyst
+3,Finance,CC220,8,Stationery|IT Equipment,0.6,Accounts Payable Clerk|Financial Analyst|Accounts Payable Clerk|Accountant
+4,Warehouse & Logistics,CC310,22,Packaging|Logistics|Safety|Tools,4,Warehouse Operator|Inventory Controller|Dispatch Coordinator|Forklift Operator
+5,Operations,CC320,14,Tools|Safety|Packaging,2,Operations Coordinator|Production Planner|Process Analyst
+6,IT,CC410,9,IT Equipment,1.5,Systems Administrator|Support Technician|Business Systems Analyst
+7,Facilities,CC420,7,Facilities|Tools|Safety,1.5,Facilities Technician|Maintenance Coordinator
+8,Sales,CC510,14,Stationery|IT Equipment,0.8,Account Executive|Sales Coordinator|Business Development Rep
+9,Marketing,CC520,7,Stationery,0.5,Marketing Coordinator|Content Specialist
+10,HR,CC610,5,Stationery|Facilities,0.3,HR Coordinator|Recruiter
+11,Customer Service,CC620,8,Stationery|IT Equipment,0.4,Customer Service Rep|Support Specialist
+12,Quality & Safety,CC330,6,Safety|Tools,1,Quality Inspector|Safety Officer|Compliance Analyst

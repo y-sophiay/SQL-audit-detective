@@ -1,0 +1,85 @@
+sku,product_name,category,unit,list_price
+PKG-1001,Stretch Wrap Roll 500mm,Packaging,roll,14.50
+PKG-1002,Corrugated Box 300x200x200,Packaging,each,1.85
+PKG-1003,Corrugated Box 600x400x400,Packaging,each,3.90
+PKG-1004,Packing Tape 48mm (36 rolls),Packaging,carton,52.00
+PKG-1005,Bubble Wrap 1.5m x 100m,Packaging,roll,68.00
+PKG-1006,Pallet Strapping Kit,Packaging,kit,36.50
+PKG-1007,Void Fill Paper 500m,Packaging,roll,29.00
+PKG-1008,Poly Mailer Bags 400x500 (500pk),Packaging,pack,74.00
+PKG-1009,Corner Protectors (200pk),Packaging,pack,41.00
+PKG-1010,Shipping Labels 100x150 (1000),Packaging,box,33.00
+PKG-1011,Heavy Duty Pallet Cover,Packaging,each,7.20
+PKG-1012,Foam Insert Custom Cut,Packaging,each,11.80
+SAF-2001,Hi-Vis Vest Class D/N,Safety,each,12.90
+SAF-2002,Safety Boots Steel Cap,Safety,pair,96.00
+SAF-2003,Nitrile Gloves (100pk),Safety,box,18.50
+SAF-2004,Cut Resistant Gloves,Safety,pair,15.40
+SAF-2005,Hard Hat Vented,Safety,each,21.00
+SAF-2006,Safety Glasses Clear,Safety,each,6.80
+SAF-2007,Ear Muffs Class 5,Safety,each,24.50
+SAF-2008,First Aid Kit Workplace,Safety,kit,88.00
+SAF-2009,Fire Extinguisher 4.5kg ABE,Safety,each,79.00
+SAF-2010,Spill Kit Chemical 120L,Safety,kit,245.00
+SAF-2011,Dust Mask P2 (20pk),Safety,box,23.00
+SAF-2012,Safety Cone 700mm,Safety,each,17.80
+ITE-3001,Laptop 14in Business,IT Equipment,each,1450.00
+ITE-3002,Monitor 24in IPS,IT Equipment,each,289.00
+ITE-3003,Docking Station USB-C,IT Equipment,each,215.00
+ITE-3004,Wireless Keyboard and Mouse,IT Equipment,set,79.00
+ITE-3005,Barcode Scanner Handheld,IT Equipment,each,365.00
+ITE-3006,Label Printer Thermal,IT Equipment,each,420.00
+ITE-3007,Network Switch 24-Port,IT Equipment,each,640.00
+ITE-3008,Wi-Fi Access Point,IT Equipment,each,310.00
+ITE-3009,USB-C Cable 2m (10pk),IT Equipment,pack,64.00
+ITE-3010,Rugged Tablet 10in,IT Equipment,each,780.00
+ITE-3011,UPS 1500VA,IT Equipment,each,395.00
+ITE-3012,Webcam 1080p,IT Equipment,each,92.00
+FAC-4001,Office Chair Ergonomic,Facilities,each,285.00
+FAC-4002,Sit-Stand Desk 1500mm,Facilities,each,640.00
+FAC-4003,LED Panel Light 600x600,Facilities,each,38.00
+FAC-4004,Cleaning Supplies Bulk Pack,Facilities,pack,112.00
+FAC-4005,Paper Towel Refill (16 rolls),Facilities,carton,64.00
+FAC-4006,Hand Sanitiser 5L,Facilities,each,31.00
+FAC-4007,Air Purifier HEPA,Facilities,each,249.00
+FAC-4008,Break Room Kettle,Facilities,each,45.00
+FAC-4009,Whiteboard 1800x1200,Facilities,each,168.00
+FAC-4010,Anti-Fatigue Floor Mat,Facilities,each,59.00
+FAC-4011,Industrial Fan 750mm,Facilities,each,189.00
+FAC-4012,Storage Shelving Unit 5-Tier,Facilities,each,134.00
+TLS-5001,Cordless Drill 18V,Tools,each,189.00
+TLS-5002,Impact Driver 18V,Tools,each,205.00
+TLS-5003,Socket Set 94pc,Tools,set,142.00
+TLS-5004,Pallet Jack Manual 2500kg,Tools,each,560.00
+TLS-5005,Tape Measure 8m,Tools,each,14.60
+TLS-5006,Cable Ties Assorted (1000pk),Tools,pack,22.50
+TLS-5007,Utility Knife Retractable,Tools,each,7.90
+TLS-5008,Torque Wrench 1/2in,Tools,each,168.00
+TLS-5009,Workbench Vice 150mm,Tools,each,98.00
+TLS-5010,Heavy Duty Trolley 300kg,Tools,each,210.00
+TLS-5011,Digital Multimeter,Tools,each,76.00
+TLS-5012,Battery Pack 5Ah 18V,Tools,each,129.00
+STA-6001,A4 Copy Paper (5 reams),Stationery,box,39.50
+STA-6002,Ballpoint Pens (50pk),Stationery,box,21.00
+STA-6003,Whiteboard Markers (12pk),Stationery,pack,15.90
+STA-6004,Lever Arch Files (10pk),Stationery,pack,41.00
+STA-6005,Sticky Notes 76x76 (12pk),Stationery,pack,12.50
+STA-6006,Toner Cartridge Black,Stationery,each,138.00
+STA-6007,Stapler Heavy Duty,Stationery,each,28.00
+STA-6008,Notebooks A5 (10pk),Stationery,pack,24.00
+STA-6009,Highlighters (10pk),Stationery,pack,11.80
+STA-6010,Desk Organiser,Stationery,each,23.00
+STA-6011,Label Maker Tape (6pk),Stationery,pack,54.00
+STA-6012,Envelopes DL (500),Stationery,box,36.00
+LOG-7001,Pallet Standard 1165x1165,Logistics,each,24.50
+LOG-7002,Pallet Racking Beam 2700mm,Logistics,each,112.00
+LOG-7003,Dock Leveller Seal,Logistics,each,1280.00
+LOG-7004,Wheel Chocks Heavy Duty (pair),Logistics,pair,64.00
+LOG-7005,Load Restraint Straps 5T (10pk),Logistics,pack,156.00
+LOG-7006,Floor Marking Tape (6pk),Logistics,pack,49.00
+LOG-7007,Roll Cage Trolley,Logistics,each,288.00
+LOG-7008,Storage Tote 600x400,Logistics,each,17.50
+LOG-7009,Platform Dolly 450kg,Logistics,each,118.00
+LOG-7010,Loading Ramp Portable,Logistics,each,2150.00
+LOG-7011,Hand Pallet Truck with Scale,Logistics,each,895.00
+LOG-7012,Conveyor Roller Section 3m,Logistics,each,640.00

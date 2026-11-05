@@ -1,0 +1,6 @@
+dist
+exports
+node_modules
+package-lock.json
+*.csv
+README.md

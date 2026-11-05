@@ -1,0 +1,71 @@
+vendor_name,country,category,payment_terms_days,ghost_pool
+Northgate Packaging Pty Ltd,AU,Packaging,30,0
+BoxCraft Industries,AU,Packaging,30,0
+PackRight Supplies,AU,Packaging,45,1
+Harbour Pack Co,NZ,Packaging,30,0
+Sterling Corrugated,AU,Packaging,60,0
+Pacific Wrap & Label,AU,Packaging,30,1
+Ridgeway Packaging Solutions,AU,Packaging,45,0
+Formosa Pack Co.,TW,Packaging,45,0
+Evergreen Pack Group,NZ,Packaging,30,1
+Kestrel Cartons Pty Ltd,AU,Packaging,30,0
+Ironclad Safety Gear,AU,Safety,30,0
+BlueLine PPE Supplies,AU,Safety,30,1
+Guardian Workwear,AU,Safety,45,0
+Summit Safety Co,AU,Safety,30,0
+Bright Vest Trading,AU,Safety,30,1
+Redback Safety Solutions,AU,Safety,45,0
+SafeStep Footwear,NZ,Safety,45,0
+ProShield Equipment,AU,Safety,60,0
+Anchor Fire & Rescue,AU,Safety,30,1
+Vantage Safety Supplies,SG,Safety,45,0
+Nimbus Computer Supplies,AU,IT Equipment,30,0
+Greenfield IT Distribution,AU,IT Equipment,30,0
+Atlas Network Systems,AU,IT Equipment,45,0
+CoreByte Technologies,AU,IT Equipment,30,1
+Pinnacle Tech Wholesale,AU,IT Equipment,60,0
+Lattice Hardware Pty Ltd,AU,IT Equipment,30,1
+Orion Peripherals,SG,IT Equipment,45,0
+Quantum Barcode Solutions,AU,IT Equipment,30,0
+Tidewater Systems,AU,IT Equipment,45,1
+Zenith Devices Trading,TW,IT Equipment,45,0
+Clearview Facility Supplies,AU,Facilities,30,0
+Brightside Cleaning Products,AU,Facilities,30,1
+Meridian Office Interiors,AU,Facilities,45,0
+Parkside Maintenance Supplies,AU,Facilities,30,1
+Willow & Oak Furniture,AU,Facilities,60,0
+AirFlow Environmental,AU,Facilities,30,0
+Cobalt Workspace Solutions,AU,Facilities,45,1
+Southern Cross Hygiene,AU,Facilities,30,0
+Harvest Break Room Co,NZ,Facilities,30,1
+Terrace Industrial Supplies,AU,Facilities,45,0
+Forge & Anvil Tools,AU,Tools,30,0
+Ridgeback Hardware,AU,Tools,45,0
+Blacktop Power Tools,AU,Tools,30,0
+Sparrow Tool Supply,AU,Tools,30,1
+Ironbark Trade Supplies,AU,Tools,45,0
+Delta Torque Systems,AU,Tools,60,0
+Granite Workshop Supplies,AU,Tools,30,1
+Coastal Fasteners & Tools,AU,Tools,30,1
+Kingfisher Equipment,NZ,Tools,45,0
+Bolt & Bearing Co,AU,Tools,30,0
+Paperline Office Supplies,AU,Stationery,30,0
+Inkwell Stationery,AU,Stationery,30,1
+Foolscap & Co,AU,Stationery,45,0
+Quill Office Products,AU,Stationery,30,1
+Metro Print Supplies,AU,Stationery,30,0
+Greenleaf Paper Co,AU,Stationery,60,0
+Bluebird Office Essentials,AU,Stationery,30,1
+Pencil & Pad Trading,NZ,Stationery,45,0
+Clipboard Wholesale,AU,Stationery,30,0
+Sunrise Stationers,SG,Stationery,45,0
+Dockside Logistics Supplies,AU,Logistics,30,0
+PalletWorks Australia,AU,Logistics,45,0
+RollForward Handling Equipment,AU,Logistics,45,0
+Keystone Racking,AU,Logistics,60,0
+Freightline Accessories,AU,Logistics,30,1
+Marlin Material Handling,AU,Logistics,45,0
+TruckGear Supply Co,AU,Logistics,30,1
+Beacon Warehouse Solutions,AU,Logistics,30,0
+Longhaul Load Control,AU,Logistics,45,0
+Crestline Conveyor Systems,NZ,Logistics,60,1
