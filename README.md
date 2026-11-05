@@ -1,4 +1,4 @@
-# Ledger Detective
+# SQL Audit Detective
 
 A browser-based SQL detective game that runs **real PostgreSQL** in the page. You play an auditor and use SQL to uncover 18 cases hidden in about 22,000 rows of purchasing and payment data for a fictional company, Harbourline Supply Co.
 
@@ -128,7 +128,7 @@ npm run export:xlsx -- K7QX2M                # a specific case code
 npm run export:xlsx -- K7QX2M --with-answers # also add an Answers sheet (spoilers)
 ```
 
-This produces `ledger-detective-<code>.xlsx` (README, data dictionary, ER diagram, and the 12 tables, with real Excel dates and numbers) and `master-data.xlsx` (the 5 master files).
+This produces `sql-audit-detective-<code>.xlsx` (README, data dictionary, ER diagram, and the 12 tables, with real Excel dates and numbers) and `master-data.xlsx` (the 5 master files).
 
 ## Tests
 
@@ -151,7 +151,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-account>/ledger-detective.git
+git remote add origin https://github.com/<your-account>/sql-audit-detective.git
 git push -u origin main
 ```
 

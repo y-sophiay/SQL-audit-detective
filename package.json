@@ -1,8 +1,8 @@
 {
-  "name": "ledger-detective",
+  "name": "sql-audit-detective",
   "private": true,
   "version": "1.0.0",
-  "description": "Ledger Detective — a browser SQL detective game that runs real PostgreSQL (PGlite) client-side.",
+  "description": "SQL Audit Detective — a browser SQL detective game that runs real PostgreSQL (PGlite) client-side.",
   "type": "module",
   "scripts": {
     "dev": "vite",

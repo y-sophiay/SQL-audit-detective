@@ -36,7 +36,7 @@ export interface Store {
   history: HistoryEntry[];
 }
 
-const KEY = 'ledger-detective:v1';
+const KEY = 'sql-audit-detective:v1';
 
 export const emptyProgress = (): CaseProgress => ({
   solved: false,

@@ -1,6 +1,6 @@
 /**
  * Export the game's data to Excel.
- *   npm run export:xlsx                 # seed DEMO42 → exports/ledger-detective-DEMO42.xlsx (+ master-data.xlsx)
+ *   npm run export:xlsx                 # seed DEMO42 → exports/sql-audit-detective-DEMO42.xlsx (+ master-data.xlsx)
  *   npm run export:xlsx -- K7QX2M       # a specific case code
  *   npm run export:xlsx -- K7QX2M --with-answers   # also add the answer-key sheet (spoilers!)
  */
@@ -63,12 +63,12 @@ function numFmt(def: TableDef, colName: string): string | undefined {
 async function dataWorkbook() {
   const ds = generateDataset(seed, loadMastersFromDisk());
   const wb = new ExcelJS.Workbook();
-  wb.creator = 'Ledger Detective';
+  wb.creator = 'SQL Audit Detective';
 
   const readme = wb.addWorksheet('README');
   readme.columns = [{ width: 110 }];
   [
-    `Ledger Detective: full data for case code ${seed}`,
+    `SQL Audit Detective: full data for case code ${seed}`,
     '',
     'This workbook is an Excel version of the same data. Its columns match the PostgreSQL tables in the game exactly. Use it to:',
     '1. Hunt for anomalies by eye first with filters and pivot tables, then confirm them with SQL.',
@@ -130,7 +130,7 @@ async function dataWorkbook() {
     styleHeader(ws);
   }
 
-  const file = join(outDir, `ledger-detective-${seed}.xlsx`);
+  const file = join(outDir, `sql-audit-detective-${seed}.xlsx`);
   await wb.xlsx.writeFile(file);
   console.log('wrote', file);
 }

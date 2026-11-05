@@ -26,7 +26,7 @@ export function Report() {
     });
     const done = FEATURES.filter((f) => practised.has(f.id)).map((f) => f.label);
     return [
-      '# Ledger Detective investigation report',
+      '# SQL Audit Detective investigation report',
       '',
       `Case code ${g.save.seed}, rank ${rank}, ${solved} of ${CASES.length} cases closed, ${total} points, ${formatDuration(spent)} spent.`,
       '',

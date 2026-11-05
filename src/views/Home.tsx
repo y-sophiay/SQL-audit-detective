@@ -83,8 +83,8 @@ export function Home() {
         <Typed />
         <div className="hero-copy">
           <p className="lede">
-            Hidden in Harbourline Supply's purchasing and payment data are {CASES.length} fraud cases. Audit it with real PostgreSQL, running right in your
-            browser, and find them one by one.
+            <strong>SQL Audit Detective</strong> is a game for learning SQL by auditing a company's purchasing and payment data. Harbourline Supply's books hold{' '}
+            {CASES.length} cases, from duplicate payments to ghost vendors, and you find them with real PostgreSQL running in your browser.
           </p>
           <div className="cta-row">
             <a className="btn btn-primary btn-lg" href={hrefFor({ name: 'board' })}>

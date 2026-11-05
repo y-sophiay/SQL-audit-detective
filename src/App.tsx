@@ -22,12 +22,12 @@ function Shell() {
   return (
     <div className="app">
       <header className="topbar">
-        <a className="brand" href={hrefFor({ name: 'home' })} aria-label="Ledger Detective, home">
+        <a className="brand" href={hrefFor({ name: 'home' })} aria-label="SQL Audit Detective, home">
           <svg viewBox="0 0 38 26" width="38" height="26" aria-hidden>
             <circle cx="13" cy="13" r="13" fill="#1F2BC9" style={{ mixBlendMode: 'multiply' }} />
             <circle cx="25" cy="13" r="13" fill="#FF5C8A" style={{ mixBlendMode: 'multiply' }} />
           </svg>
-          <span>Ledger Detective</span>
+          <span>SQL Audit Detective</span>
         </a>
         <nav aria-label="Main">
           {NAV.map((n) => (
