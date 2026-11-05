@@ -200,9 +200,9 @@ kbd {
 .footer {
   margin-top: auto;
   text-align: center;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 15px;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 13.5px;
   color: var(--muted);
   border-top: 4px double var(--blue);
   margin: 64px 24px 0;
@@ -336,11 +336,11 @@ kbd {
   font-stretch: 112%;
 }
 .lede {
-  max-width: 34em;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 22px;
-  line-height: 1.4;
+  max-width: 36em;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.55;
   font-weight: 400;
   color: var(--ink);
 }
@@ -428,7 +428,7 @@ kbd {
   gap: 24px 48px;
 }
 .hero-copy .lede {
-  font-size: 24px;
+  font-size: 18px;
   flex: 1 1 420px;
   max-width: 36em;
 }
@@ -740,10 +740,10 @@ a.ledger-row:hover {
 }
 .ledger-tag {
   color: var(--muted);
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 16.5px;
-  line-height: 1.35;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 14.5px;
+  line-height: 1.4;
 }
 .ledger-skills {
   color: var(--faint);
@@ -1222,7 +1222,7 @@ a.ledger-row:hover .ledger-status.is-solved {
 }
 .result-table .null {
   color: var(--faint);
-  font-style: italic;
+  font-style: normal;
   font-size: 12px;
 }
 .result-table .empty {
@@ -1521,9 +1521,9 @@ a.ledger-row:hover .ledger-status.is-solved {
 }
 .close-kicker {
   color: var(--muted);
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 16px;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 14px;
 }
 .close-sheet h2 {
   font-family: var(--font-display);
@@ -1651,7 +1651,7 @@ a.ledger-row:hover .ledger-status.is-solved {
     margin-right: 12px;
   }
   .hero-copy .lede {
-    font-size: 21px;
+    font-size: 17px;
   }
   .topbar {
     gap: 12px;
