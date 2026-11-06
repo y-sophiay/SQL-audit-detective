@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { CASES, LEVEL_LABEL, caseById, isFix } from '../cases';
 import { CloseCard } from '../components/CloseCard';
+import { ErdModal } from '../components/ErdModal';
 import { ErrorBox, VerdictBox } from '../components/Feedback';
 import { ResultStack } from '../components/ResultTable';
 import { SchemaPanel } from '../components/SchemaPanel';
@@ -63,6 +64,7 @@ function Case({ id }: { id: number }) {
   const [mark, setMark] = useState<ErrorMark | null>(null);
   const [closing, setClosing] = useState(false);
   const [duplicate, setDuplicate] = useState(false);
+  const [erd, setErd] = useState(false);
   const editor = useRef<EditorHandle>(null);
   const markKey = useRef(0);
 
@@ -155,11 +157,6 @@ function Case({ id }: { id: number }) {
         <div className="ws-panel" role="tabpanel">
           {tab === 'brief' && (
             <div className="prose brief">
-              {def.brief.map((b, i) => (
-                <p key={i}>
-                  <Inline text={b} />
-                </p>
-              ))}
               <div className="task">
                 <p className="task-label">What to find</p>
                 <p>
@@ -175,6 +172,18 @@ function Case({ id }: { id: number }) {
                   )}
                 </p>
               </div>
+              <div className="map-row">
+                <button type="button" className="btn btn-quiet" onClick={() => setErd(true)}>
+                  Open the table map
+                </button>
+                <span>Optional. Shows how the tables connect, so you can see which JOIN you need.</span>
+              </div>
+              <h2 className="h-mini">Background</h2>
+              {def.brief.map((b, i) => (
+                <p key={i}>
+                  <Inline text={b} />
+                </p>
+              ))}
               <p className="skills-line">Practised here: {def.skills.join(', ')}</p>
               <p className="fine">
                 {fix
@@ -309,6 +318,7 @@ function Case({ id }: { id: number }) {
         </div>
       </section>
 
+      {erd && <ErdModal onClose={() => setErd(false)} />}
       {closing && (
         <CloseCard
           def={def}
